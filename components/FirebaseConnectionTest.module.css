@@ -1,0 +1,40 @@
+.card {
+  width: 100%;
+  max-width: 440px;
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.label {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.status {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+
+.status[data-status="checking"] {
+  color: #666;
+}
+
+.status[data-status="ok"] {
+  color: #0a7a28;
+}
+
+.status[data-status="error"] {
+  color: #b42318;
+}
+
+.detail {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
